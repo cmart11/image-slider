@@ -5,12 +5,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <script src="main.js" defer></script>
+    <script src="click.js" defer></script>
+    <style>
+        button {
+            border-radius: 50%;
+            background-color: aquamarine;
+            width: 50px;
+            height: 50px;
+            border: none;
+            cursor: pointer;
+        }
+
+        .btns {
+            display: flex;
+            justify-content: space-between;
+            width: 200px;
+        }
+    </style>
     <title>Image Slider</title>
 </head>
 
 <body>
-    <img name="slide" src="" alt="images" width="400" height="400" style="overflow: hidden">
+    <img name="slide" src="" alt="images" width="400" height="400" style="overflow: scroll">
 </body>
+<div class="btns">
+    <button class="prev">B</button>
+    <button class="next">F</button>
+</div>
+
+
 
 </html>
