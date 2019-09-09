@@ -7,10 +7,6 @@
     images[1] = './images/images2.jpg';
     images[2] = './images/images3.jpg';
 
-    const prev = document.getElementById('prev');
-    const next = document.getElementById('next');
-
-
     document.slide.src = images[tracker]
 
     document.addEventListener('click', (event) => {
